@@ -9,7 +9,7 @@ setup(
     python_requires='>=3.6',
     include_package_data=True,
     install_requires=[
-        'django==1.11.17',
+        'django==1.11.23',
         'm3-builder==1.2.0',
         'm3-objectpack==2.2.25',
     ],

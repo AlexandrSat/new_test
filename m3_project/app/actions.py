@@ -60,14 +60,14 @@ class UserPack(ObjectPack):
     model = models.User
     add_to_desktop = add_to_menu = True
     #edit_window = add_window = ModelEditWindow.fabricate(
-     #    model,
-      #   model_register=observer,
-       #  field_list=[
-        #     'name',
-         #    'password',
-          #   'email',
-           #  'group_id'
-     #    ],
+    #     model,
+    #     model_register=observer,
+    #     field_list=[
+    #         'name',
+    #         'password',
+    #         'email',
+    #         'group_id'
+    #     ],
     # )
 
     edit_window = add_window = UserAddWindow 
